@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.conteudo{
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.um, .dois, .tres {
+    color: rgb(255, 255, 255);
+}
+.content{
+    padding: 0.5rem;
+    background-color: rgba(46, 46, 46, 0.815);
+    display: flex;
+    align-items: center;
+}
+
+.dois, .um, .tres{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(5, 5, 5, 0.904);
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.hero{
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding: 2rem;
+}
+
+.hero h2{
+    text-transform: uppercase;
+}
+
+.filmes_container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.card_filme{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.card_filme a{
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: white;
+    box-shadow: 1px 2px 4px rgba(46, 46, 46, 0.733);
+}
+.card_filme a:hover{
+    text-decoration: none;
+}
+
+.card_filme img{
+    width: 300px;
+    height: 300px;
+}
+
+.botao{
+    display: flex;
+    justify-content: space-between;
+}
+
+#minions{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+@media screen and (max-width:400px){
+    .content{
+        display: block;
+    }
+    .um, .dois, .tres{
+        width: 80%;
+    }
+    .filmes_container{
+        display: block;
+    }
+    .card_filme{
+        width: 90%;
+    }
+}
+
+@media screen and(max-width:800px){
+    .filmes_container{
+        display: block;
+        width: 100%;
+    }
+}
