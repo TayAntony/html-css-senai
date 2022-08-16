@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100vw;
+    height: 3rem;
+    background-color: rgb(122, 84, 184);
+    border-bottom: 5px solid rgb(97, 34, 180);
+    position: sticky;
+    top: 0;
+    
+}
+
+.content{
+    margin: 5rem;
+    border: 1px solid rgb(255, 162, 162);
+}
+
+section{
+    margin: 1rem;
+    height: 20rem;
+    background-color: rgba(140, 255, 255, 0.753);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.card{
+    background-color: rgb(252, 138, 195);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+#card_direita{
+    display: flex;
+}
+
+#texto1{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(236, 174, 255);
+    line-height: 25px;
+}
+
+#texto2{
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(236, 174, 255);
+    line-height: 15px;
+    margin: 1rem;
+}
+
+#textos{
+    display: flex;
+    justify-content: center;
+}
+
+.card2div{
+    text-align: center;
+}
+
+.card2{
+    display: inline-block;
+    background-color: rgb(255, 253, 144);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.bolinha{
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    border: 3px solid black;
+    box-shadow: 8px 4px 12px rgba(82, 82, 82, 0.623);
+    
+}
+
+.bolinha:hover{
+    background-color: rgba(211, 56, 185, 0.699);
+    transition: 1s;
+}
+
+.bola{
+    right: 0;
+    position: fixed;
+    bottom: 10px;
+    
+}
+
+footer{
+    padding: 1rem;
+    background-color: rgb(194, 255, 224);
+    height: 4rem;
+    width: 100vw;
+    color: black;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: rgb(17, 117, 117);
+}
